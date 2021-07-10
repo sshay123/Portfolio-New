@@ -4,6 +4,7 @@
     border: none;
     width: 250px;
     height: 250px;
+    filter: drop-shadow(10px 5px 2px #727071);
   }
 
   .img-responsive {
@@ -198,6 +199,5 @@ a{
 
 #imgborder {
   border-radius: 20px;
-  border: 2px solid var(--contrast-color);
   
 }
