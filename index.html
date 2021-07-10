@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+  .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #BF307F !important;
+  }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><b>SCOTT SHAY</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myprojects">CASE STUDIES</a></li>
+        <li><a href="#getintouch">GET IN TOUCH</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class= 'container2'>
+  <div class="container_content">
+  <div class="container_content_inner">
+  <div class="title">
+    <h1>Hey, I'm Scott. I build stuff for the web</h1>
+  </div>
+  <div class="par">
+  <p>
+    I'm a Vancouver Island based web developer specializing in HTML, CSS and JavaScript.
+    My focus is building sites that load fast and keep visitors engaged.
+  </p>
+  </div>
+  <div class="btns">
+  <button class='btns_more'><a href="#myprojects">case studies </a> </button>
+  </div>
+  </div>
+  </div>
+   <div class="container_outer_img">
+   <div class="img-inner">
+   <img src='img/webdev.jpeg'  alt="" class="container_img"/>
+         </div>
+       </div>
+    </div>
+  <div class="overlay"></div>
+
+  
+<div class="container-fluid bg-2 text-center">
+  <h2 id="myprojects" class="margin"><b>Case Studies:</b></h2>
+  <p class="p-padding">Click on the image to view the Project Details.</p>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h2 class="margin">Interactive Photo Gallery</h2>
+      <div class="imghover"><a href="projectoverview/photogallery.html"><img src="img/project5.png" class="img-responsive" style="display:inline" alt="Screenshot of photo gallery web page"></a></div>
+    </div>
+      <div class="col-md-6">
+        <h2 class="margin">Gameshow Web App</h2>
+        <div class="imghover"><a href="projectoverview/gameshowapp.html"><img src="img/project6.png" class="img-responsive" style="display:inline" alt="Screenshot of word guessing game web page"></a></div>
+      </div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="margin">Web App Dashboard</h2>
+        <div class="imghover"><a href="projectoverview/webappdashboard.html"><img src="img/project7.png" class="img-responsive" style="display:inline" alt="Screenshot of web app dashboard web page"></a></div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="margin">Random User Employee Directory</h2>
+        <div class="imghover"><a href="projectoverview/employeedirectory.html"><img src="img/project8.png" class="img-responsive" style="display:inline" alt="Screenshot of employee directory web page"></a></div>
+      </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">    
+  <h2 class="margin"><b>Tech I Use:</b></h2><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="img/html.png" class="img-thumbnail" style="display:inline" alt="Image of official HTML logo">
+    </div>
+    <div class="col-sm-4"> 
+      <img src="img/css.png" class="img-thumbnail" style="display:inline" alt="Image of official CSS logo">
+    </div>
+    <div class="col-sm-4"> 
+      <img src="img/js.png" class="img-thumbnail" style="display:inline" alt="Image of official JavaScript logo">
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid bg-4 text-center">
+  <h3 id="getintouch">Get in Touch!</h3>
+  <p>Please use the email link below:</p>
+  <a href="mailto:scottshay1@hotmail.com">
+  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-envelope" viewBox="0 0 16 16">
+    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+  </svg>
+</a>
+
+  <p>&copy; 2021 SCOTT SHAY</p> 
+  <a href="index.html">
+  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-house" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+  </svg>
+</a>
+</footer>
+
+</body>
+</html>

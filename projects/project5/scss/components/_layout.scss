@@ -1,0 +1,31 @@
+/* ======================================
+    Layout Styles
+   ====================================== */
+main {
+  @include center;
+  padding: 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.photo-gallery {
+  overflow: visible;
+  @include mq('sm') {
+    @include flexbox($dir:row, $wrap:wrap, $just:space-evenly);
+    align-items: center;
+  }
+}
+
+.thumbnail {
+  margin: 2rem;
+  @include mq('xs') {
+    &,
+    & img {
+      display: block;
+      @include center;
+      width: 80%;
+    }
+  }
+}

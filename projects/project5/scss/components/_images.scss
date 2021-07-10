@@ -1,0 +1,12 @@
+/* ======================================
+    Image Styles
+   ====================================== */
+.thumbnail img {
+  @include border;
+  @include shadow;
+  @include transition($tim: $cub-bez, $dur: 0.2s);
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+    }
+}
