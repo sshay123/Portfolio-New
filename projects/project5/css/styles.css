@@ -379,3 +379,17 @@ input {
     transform: scale(1.1); }
 
 /*# sourceMappingURL=styles.css.map */
+
+body {
+  background-color: #151226;
+}
+
+.title {
+  color: #fff;
+  align-items: center;
+}
+
+.header {
+  justify-content: center;
+  text-align: center;
+}
